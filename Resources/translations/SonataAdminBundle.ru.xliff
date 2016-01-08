@@ -396,11 +396,11 @@
             </trans-unit>
             <trans-unit id="noscript_warning">
                 <source>noscript_warning</source>
-                <target>noscript_warning</target>
+                <target>В веб-браузере отключена поддержка JavaScript. Некоторые функции будут работать не правильно.</target>
             </trans-unit>
             <trans-unit id="message_form_group_empty">
                 <source>message_form_group_empty</source>
-                <target>message_form_group_empty</target>
+                <target>Нет доступных полей</target>
             </trans-unit>
         </body>
     </file>
