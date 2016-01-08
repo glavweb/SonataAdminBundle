@@ -589,6 +589,10 @@ abstract class Admin implements AdminInterface, DomainObjectInterface
 
         $this->baseCodeRoute = $this->getCode();
 
+        if (!isset($this->formOptions['translation_domain']) && $this->getTranslationDomain()) {
+            $this->formOptions['translation_domain'] = $this->getTranslationDomain();
+        }
+
         $this->configure();
     }
 
